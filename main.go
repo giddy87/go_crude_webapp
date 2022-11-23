@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"net/http"
 	"pkg/handlers"
-	
 )
 
 const PortNumber = ":8080"
@@ -20,6 +19,6 @@ func main() {
 	//		}
 	//		fmt.Println(fmt.Sprintf("Number ofbytes written %d", n))
 	//	})
-	fmt.Println("Application starting on Port")
+	fmt.Println("Application starting on Port", PortNumber)
 	_ = http.ListenAndServe(PortNumber, nil)
 }
