@@ -5,10 +5,11 @@ import (
 	"html/template"
 	"log"
 	"net/http"
-	"pkg/handlers"
-	"pkg/render"
 
-	"github.com/giddy87/pkg/config"
+	"github.com/giddy87/go_crude_webapp/pkg/handlers"
+	"github.com/giddy87/go_crude_webapp/pkg/render"
+
+	"github.com/giddy87/go_crude_webapp/pkg/config"
 )
 
 const PortNumber = ":8080"

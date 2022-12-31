@@ -3,9 +3,10 @@ package handlers
 import (
 	"fmt"
 	"net/http"
-	"pkg/config"
-	"pkg/models"
-	"pkg/render"
+
+	"github.com/giddy87/go_crude_webapp/pkg/config"
+	"github.com/giddy87/go_crude_webapp/pkg/models"
+	"github.com/giddy87/go_crude_webapp/pkg/render"
 )
 
 type Repository struct {
