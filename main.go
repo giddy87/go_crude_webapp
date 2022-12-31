@@ -5,9 +5,10 @@ import (
 	"html/template"
 	"log"
 	"net/http"
-	"pkg/config"
 	"pkg/handlers"
 	"pkg/render"
+
+	"github.com/giddy87/pkg/config"
 )
 
 const PortNumber = ":8080"
