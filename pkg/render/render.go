@@ -5,8 +5,7 @@ import (
 	"html/template"
 	"log"
 	"net/http"
-
-	"github.com/giddy87/go_crude_webapp/path/filepath"
+	"path/filepath"
 	"github.com/giddy87/go_crude_webapp/pkg/config"
 	"github.com/giddy87/go_crude_webapp/pkg/models"
 )
